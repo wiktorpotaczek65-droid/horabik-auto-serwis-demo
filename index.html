@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Krzysztof Horabik · Auto Serwis — Elektromechanika samochodowa, Myślenice</title>
+  <meta name="description" content="Krzysztof Horabik · Auto Serwis. Elektryka i mechanika samochodowa w Myślenicach od 2000 roku. Diagnoza komputerowa, rozruszniki, alternatory, instalacje elektryczne." />
+  <meta name="theme-color" content="#FFFFFF" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230A0A0A'/><path d='M14 6 L8 18 H14 L12 26 L22 12 H16 L20 6 Z' fill='%231B3CE0'/></svg>" />
+</head>
+<body>
+
+  <!-- ───── NAV ───── -->
+  <header class="nav" data-nav>
+    <a class="brand" href="#top" aria-label="Auto Serwis Horabik — strona główna">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M11 3 L6 14 H11 L9 21 L18 9 H13 L16 3 Z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      <span class="brand__name">
+        Horabik <span>· Auto Serwis</span>
+      </span>
+    </a>
+
+    <nav class="nav__links" aria-label="Sekcje strony">
+      <a href="#zakres">Zakres</a>
+      <a href="#dlaczego">Dlaczego my</a>
+      <a href="#proces">Proces</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+
+    <a class="btn btn--solid" href="tel:+48504795875">504 795 875</a>
+  </header>
+
+  <!-- ───── HERO ───── -->
+  <main id="top">
+    <section class="hero">
+      <span class="tag reveal" data-reveal>
+        <span class="tag__dot"></span>
+        Czynny dzisiaj · 8:00 — 16:00
+      </span>
+
+      <h1 class="hero__title">
+        <span class="reveal" data-reveal style="--d:60ms">Elektryka samochodowa.</span>
+        <span class="reveal hero__title--accent" data-reveal style="--d:140ms">Bez zgadywania.</span>
+      </h1>
+
+      <p class="hero__lede reveal" data-reveal style="--d:240ms">
+        Diagnoza komputerowa, alternatory, rozruszniki, instalacje, immobilizery, klimatyzacja, drobna mechanika.
+        Myślenice, ul. Kazimierza Wielkiego 205B. Od 2000 roku.
+      </p>
+
+      <div class="hero__cta reveal" data-reveal style="--d:340ms">
+        <a class="btn btn--solid btn--lg" href="tel:+48504795875">
+          <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3.5 3.5h3l1 3-1.5 1c.8 1.8 2.2 3.2 4 4l1-1.5 3 1v3a1 1 0 0 1-1 1A11 11 0 0 1 2.5 4.5a1 1 0 0 1 1-1z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>
+          <span>Zadzwoń: 504 795 875</span>
+        </a>
+        <a class="btn btn--ghost btn--lg" href="#zakres">
+          <span>Co robimy</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- divider -->
+    <hr class="rule" />
+
+    <!-- ───── ZAKRES ───── -->
+    <section class="scope" id="zakres">
+      <div class="scope__head">
+        <span class="eyebrow reveal" data-reveal>Zakres usług</span>
+        <h2 class="reveal" data-reveal style="--d:80ms">
+          Co najczęściej trafia na podnośnik.
+        </h2>
+      </div>
+
+      <ol class="scope__list">
+        <li class="scope-item reveal" data-reveal>
+          <span class="scope-item__no">01</span>
+          <div>
+            <h3>Diagnoza komputerowa</h3>
+            <p>Odczyt i kasowanie błędów, kodowanie modułów, programowanie kluczyków. Wszystkie marki europejskie i azjatyckie.</p>
+          </div>
+          <span class="scope-item__price">od 80 zł</span>
+        </li>
+
+        <li class="scope-item reveal" data-reveal style="--d:40ms">
+          <span class="scope-item__no">02</span>
+          <div>
+            <h3>Alternatory i rozruszniki</h3>
+            <p>Wymiana, regeneracja, naprawa. Bendiks, szczotki, regulator napięcia. Większość zleceń w jeden dzień.</p>
+          </div>
+          <span class="scope-item__price">od 180 zł</span>
+        </li>
+
+        <li class="scope-item reveal" data-reveal style="--d:80ms">
+          <span class="scope-item__no">03</span>
+          <div>
+            <h3>Instalacja elektryczna</h3>
+            <p>Szukanie zwarć, wymiana wiązek, montaż haków i czujników, naprawa instalacji po kolizji.</p>
+          </div>
+          <span class="scope-item__price">wycena ind.</span>
+        </li>
+
+        <li class="scope-item reveal" data-reveal style="--d:120ms">
+          <span class="scope-item__no">04</span>
+          <div>
+            <h3>Immobilizer &amp; kluczyki</h3>
+            <p>Dorabianie kluczyków, programowanie pilotów centralnego zamka, usuwanie błędów immobilizera.</p>
+          </div>
+          <span class="scope-item__price">od 150 zł</span>
+        </li>
+
+        <li class="scope-item reveal" data-reveal style="--d:160ms">
+          <span class="scope-item__no">05</span>
+          <div>
+            <h3>Klimatyzacja</h3>
+            <p>Nabicie czynnikiem, ozonowanie, wymiana filtra kabinowego, diagnoza nieszczelności.</p>
+          </div>
+          <span class="scope-item__price">od 150 zł</span>
+        </li>
+
+        <li class="scope-item reveal" data-reveal style="--d:200ms">
+          <span class="scope-item__no">06</span>
+          <div>
+            <h3>Mechanika ogólna</h3>
+            <p>Wymiana oleju, klocków, tarcz, świec, akumulatorów. Drobne naprawy zawieszenia.</p>
+          </div>
+          <span class="scope-item__price">wycena ind.</span>
+        </li>
+      </ol>
+    </section>
+
+    <hr class="rule" />
+
+    <!-- ───── DLACZEGO ───── -->
+    <section class="why" id="dlaczego">
+      <div class="why__head">
+        <span class="eyebrow reveal" data-reveal>Dlaczego do nas</span>
+        <h2 class="reveal" data-reveal style="--d:80ms">Trzy proste rzeczy.</h2>
+      </div>
+
+      <div class="why__grid">
+        <article class="why-card reveal" data-reveal>
+          <span class="why-card__no">01</span>
+          <h3>Wycena <br />przed naprawą</h3>
+          <p>Najpierw mówimy, ile to będzie kosztować i co dokładnie zrobimy. Bez „okazało się w trakcie”.</p>
+        </article>
+
+        <article class="why-card reveal" data-reveal style="--d:80ms">
+          <span class="why-card__no">02</span>
+          <h3>24 lata <br />w jednym miejscu</h3>
+          <p>Warsztat działa w Myślenicach nieprzerwanie od 2000 roku. Te same ręce, ten sam adres.</p>
+        </article>
+
+        <article class="why-card reveal" data-reveal style="--d:160ms">
+          <span class="why-card__no">03</span>
+          <h3>Termin, który<br />jest terminem</h3>
+          <p>Jak mówimy „odbiór w piątek o 15:00” — auto stoi gotowe o 15:00. Nie o 17:00, nie w poniedziałek.</p>
+        </article>
+      </div>
+    </section>
+
+    <hr class="rule" />
+
+    <!-- ───── PROCES ───── -->
+    <section class="process" id="proces">
+      <div class="process__head">
+        <span class="eyebrow reveal" data-reveal>Jak pracujemy</span>
+        <h2 class="reveal" data-reveal style="--d:80ms">Cztery kroki, zero domysłów.</h2>
+      </div>
+
+      <ol class="steps">
+        <li class="step reveal" data-reveal>
+          <span class="step__no">→ 01</span>
+          <h3>Telefon</h3>
+          <p>Mówisz, co się dzieje. Umawiamy konkretny dzień i godzinę.</p>
+        </li>
+        <li class="step reveal" data-reveal style="--d:60ms">
+          <span class="step__no">→ 02</span>
+          <h3>Diagnoza</h3>
+          <p>Sprawdzamy auto, pokazujemy usterkę. Mówimy ile, ile czasu, ile części.</p>
+        </li>
+        <li class="step reveal" data-reveal style="--d:120ms">
+          <span class="step__no">→ 03</span>
+          <h3>Naprawa</h3>
+          <p>Robimy. Jeśli coś dochodzi po drodze — najpierw telefon, potem robota.</p>
+        </li>
+        <li class="step reveal" data-reveal style="--d:180ms">
+          <span class="step__no">→ 04</span>
+          <h3>Odbiór</h3>
+          <p>Pokazujemy wymienione części, wyjaśniamy fakturę. Gwarancja 24 mies.</p>
+        </li>
+      </ol>
+    </section>
+
+    <hr class="rule" />
+
+    <!-- ───── QUOTE ───── -->
+    <section class="quote">
+      <figure class="reveal" data-reveal>
+        <blockquote>
+          Trzy warsztaty nie umiały znaleźć przyczyny gasnących świateł.
+          Pan Krzysztof znalazł w pół godziny.
+        </blockquote>
+        <figcaption>
+          <strong>Andrzej M.</strong>
+          <span>Klient od 2017 · Skoda Octavia</span>
+        </figcaption>
+      </figure>
+    </section>
+
+    <hr class="rule" />
+
+    <!-- ───── KONTAKT ───── -->
+    <section class="contact" id="kontakt">
+      <div class="contact__head">
+        <span class="eyebrow reveal" data-reveal>Kontakt</span>
+        <h2 class="reveal" data-reveal style="--d:80ms">Zadzwoń.<br /><span class="muted">Najkrótsza droga do umówienia wizyty.</span></h2>
+      </div>
+
+      <div class="contact__grid">
+        <ul class="contact__rows reveal" data-reveal>
+          <li>
+            <span>Telefon</span>
+            <a href="tel:+48504795875">+48 504 795 875</a>
+          </li>
+          <li>
+            <span>E-mail</span>
+            <a href="mailto:autoserwis.krzysztof@gmail.com">autoserwis.krzysztof@gmail.com</a>
+          </li>
+          <li>
+            <span>Adres</span>
+            <a>ul. Kazimierza Wielkiego 205B<br />32-400 Myślenice</a>
+          </li>
+          <li>
+            <span>Godziny</span>
+            <a>Pn–Pt · 8:00 — 16:00<br /><span class="muted-small">sobota po umówieniu</span></a>
+          </li>
+          <li>
+            <span>Działamy</span>
+            <a>od 2000 roku</a>
+          </li>
+        </ul>
+
+        <form class="contact__form reveal" data-reveal style="--d:80ms" id="contactForm" novalidate>
+          <p class="contact__form-note">Wolisz pisać niż dzwonić — zostaw numer, oddzwonimy w godzinach pracy.</p>
+          <label>
+            <span>Imię</span>
+            <input type="text" name="name" autocomplete="given-name" required />
+          </label>
+          <label>
+            <span>Telefon</span>
+            <input type="tel" name="phone" autocomplete="tel" inputmode="tel" required />
+          </label>
+          <label class="full">
+            <span>O co chodzi</span>
+            <textarea name="message" rows="3" placeholder="np. lampka kontrolna silnika, gaśnie pod gaz"></textarea>
+          </label>
+          <label class="check full">
+            <input type="checkbox" name="rodo" required />
+            <span>Zgadzam się na kontakt telefoniczny.</span>
+          </label>
+          <button class="btn btn--solid btn--lg full" type="submit" id="submitBtn">
+            <span class="btn__label">Wyślij</span>
+            <span class="btn__done" aria-hidden="true">
+              <svg viewBox="0 0 16 16" fill="none"><path d="m3 8 3.5 3.5L13 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Wysłane — oddzwonimy w godzinach pracy
+            </span>
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ───── FOOTER ───── -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <strong>Krzysztof Horabik · Auto Serwis</strong>
+        <span>Elektromechanika samochodowa · Myślenice · od 2000</span>
+      </div>
+      <div class="footer__meta">
+        <span>© <span id="year"></span> · wszystkie prawa zastrzeżone</span>
+        <span>Demo</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
