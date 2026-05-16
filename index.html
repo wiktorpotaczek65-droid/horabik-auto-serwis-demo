@@ -9,7 +9,6 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles.css" />
@@ -32,127 +31,45 @@
 
     <nav class="nav__links" aria-label="Sekcje strony">
       <a href="#zakres">Zakres</a>
-      <a href="#warsztat">Warsztat</a>
       <a href="#dlaczego">Dlaczego my</a>
-      <a href="#faq">FAQ</a>
+      <a href="#proces">Proces</a>
       <a href="#kontakt">Kontakt</a>
     </nav>
 
     <a class="btn btn--solid" href="tel:+48504795875">504 795 875</a>
   </header>
 
-  <!-- ───── HERO (2-col with image) ───── -->
+  <!-- ───── HERO ───── -->
   <main id="top">
     <section class="hero">
-      <div class="hero__text">
-        <span class="tag reveal" data-reveal>
-          <span class="tag__dot"></span>
-          Czynny dzisiaj · 8:00 — 16:00
-        </span>
+      <span class="tag reveal" data-reveal>
+        <span class="tag__dot"></span>
+        Czynny dzisiaj · 8:00 — 16:00
+      </span>
 
-        <h1 class="hero__title">
-          <span class="reveal" data-reveal style="--d:60ms">Elektryka samochodowa.</span>
-          <span class="reveal hero__title--accent" data-reveal style="--d:140ms">Bez zgadywania.</span>
-        </h1>
+      <h1 class="hero__title">
+        <span class="reveal" data-reveal style="--d:60ms">Elektryka samochodowa.</span>
+        <span class="reveal hero__title--accent" data-reveal style="--d:140ms">Bez zgadywania.</span>
+      </h1>
 
-        <p class="hero__lede reveal" data-reveal style="--d:240ms">
-          Diagnoza komputerowa, alternatory, rozruszniki, instalacje, immobilizery, klimatyzacja, drobna mechanika.
-          Myślenice, ul. Kazimierza Wielkiego 205B. Od 2000 roku.
-        </p>
+      <p class="hero__lede reveal" data-reveal style="--d:240ms">
+        Diagnoza komputerowa, alternatory, rozruszniki, instalacje, immobilizery, klimatyzacja, drobna mechanika.
+        Myślenice, ul. Kazimierza Wielkiego 205B. Od 2000 roku.
+      </p>
 
-        <div class="hero__cta reveal" data-reveal style="--d:340ms">
-          <a class="btn btn--solid btn--lg" href="tel:+48504795875">
-            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3.5 3.5h3l1 3-1.5 1c.8 1.8 2.2 3.2 4 4l1-1.5 3 1v3a1 1 0 0 1-1 1A11 11 0 0 1 2.5 4.5a1 1 0 0 1 1-1z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>
-            <span>Zadzwoń: 504 795 875</span>
-          </a>
-          <a class="btn btn--ghost btn--lg" href="#zakres">
-            <span>Co robimy</span>
-          </a>
-        </div>
-
-        <ul class="hero__chips reveal" data-reveal style="--d:440ms">
-          <li>Diagnoza komputerowa</li>
-          <li>Alternatory</li>
-          <li>Rozruszniki</li>
-          <li>Immobilizery</li>
-          <li>Klimatyzacja</li>
-          <li>Mechanika ogólna</li>
-        </ul>
-      </div>
-
-      <div class="hero__media reveal" data-reveal style="--d:160ms">
-        <figure class="hero__media-main">
-          <img src="https://images.unsplash.com/photo-1632823471565-1ecdf5c6da77?w=1200&q=80&auto=format&fit=crop"
-               alt="Diagnoza komputerowa samochodu — tester podłączony do gniazda OBD"
-               loading="eager"
-               decoding="async"
-               width="1200" height="1500" />
-          <figcaption>
-            <span class="hero__media-tag">Diagnoza OBD</span>
-            <span class="hero__media-id">SCN-08</span>
-          </figcaption>
-        </figure>
-
-        <div class="hero__media-stack">
-          <figure class="hero__media-small">
-            <img src="https://images.unsplash.com/photo-1486006920555-c77dcf18193c?w=800&q=80&auto=format&fit=crop"
-                 alt="Mechanik z kluczem nasadowym w warsztacie"
-                 loading="lazy" decoding="async"
-                 width="800" height="800" />
-          </figure>
-          <figure class="hero__media-small">
-            <img src="https://images.unsplash.com/photo-1486754735734-325b5831c3ad?w=800&q=80&auto=format&fit=crop"
-                 alt="Komora silnika otwarta podczas naprawy"
-                 loading="lazy" decoding="async"
-                 width="800" height="800" />
-          </figure>
-        </div>
+      <div class="hero__cta reveal" data-reveal style="--d:340ms">
+        <a class="btn btn--solid btn--lg" href="tel:+48504795875">
+          <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3.5 3.5h3l1 3-1.5 1c.8 1.8 2.2 3.2 4 4l1-1.5 3 1v3a1 1 0 0 1-1 1A11 11 0 0 1 2.5 4.5a1 1 0 0 1 1-1z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>
+          <span>Zadzwoń: 504 795 875</span>
+        </a>
+        <a class="btn btn--ghost btn--lg" href="#zakres">
+          <span>Co robimy</span>
+        </a>
       </div>
     </section>
 
-    <!-- ───── STATS STRIP ───── -->
-    <section class="stats" aria-label="Statystyki warsztatu">
-      <ul class="stats__grid">
-        <li class="stats__item reveal" data-reveal>
-          <strong data-count="24">0</strong>
-          <span>lat na rynku w Myślenicach</span>
-        </li>
-        <li class="stats__item reveal" data-reveal style="--d:60ms">
-          <strong data-count="8600" data-suffix="+">0</strong>
-          <span>obsłużonych samochodów</span>
-        </li>
-        <li class="stats__item reveal" data-reveal style="--d:120ms">
-          <strong data-count="100" data-suffix="%">0</strong>
-          <span>wycen z góry, na piśmie</span>
-        </li>
-        <li class="stats__item reveal" data-reveal style="--d:180ms">
-          <strong data-count="49" data-divisor="10">0</strong>
-          <span>średnia opinii klientów</span>
-        </li>
-      </ul>
-    </section>
-
-    <!-- ticker -->
-    <div class="ticker" aria-hidden="true">
-      <div class="ticker__track">
-        <span>DIAGNOZA</span><i>○</i>
-        <span>ALTERNATORY</span><i>○</i>
-        <span>ROZRUSZNIKI</span><i>○</i>
-        <span>INSTALACJE</span><i>○</i>
-        <span>IMMOBILIZER</span><i>○</i>
-        <span>KLIMATYZACJA</span><i>○</i>
-        <span>MECHANIKA</span><i>○</i>
-        <span>OBD</span><i>○</i>
-        <span>DIAGNOZA</span><i>○</i>
-        <span>ALTERNATORY</span><i>○</i>
-        <span>ROZRUSZNIKI</span><i>○</i>
-        <span>INSTALACJE</span><i>○</i>
-        <span>IMMOBILIZER</span><i>○</i>
-        <span>KLIMATYZACJA</span><i>○</i>
-        <span>MECHANIKA</span><i>○</i>
-        <span>OBD</span><i>○</i>
-      </div>
-    </div>
+    <!-- divider -->
+    <hr class="rule" />
 
     <!-- ───── ZAKRES ───── -->
     <section class="scope" id="zakres">
@@ -222,83 +139,6 @@
 
     <hr class="rule" />
 
-    <!-- ───── WARSZTAT — gallery ───── -->
-    <section class="gallery" id="warsztat">
-      <div class="gallery__head">
-        <div>
-          <span class="eyebrow reveal" data-reveal>Z warsztatu</span>
-          <h2 class="reveal" data-reveal style="--d:80ms">Tak wygląda dzień pracy.</h2>
-        </div>
-        <p class="gallery__note reveal" data-reveal style="--d:160ms">
-          Jeden lokal, jedna kanapa do czekania, jeden pies podwórzowy. Bez salonowych podświetleń — ale podłoga zawsze czysta.
-        </p>
-      </div>
-
-      <div class="gallery__grid">
-        <figure class="gallery__item gallery__item--tall reveal" data-reveal>
-          <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=900&q=80&auto=format&fit=crop"
-               alt="Samochód na podnośniku w warsztacie"
-               loading="lazy" decoding="async"
-               width="900" height="1200" />
-          <figcaption>
-            <span>01</span>
-            <span>Auto na podnośniku</span>
-          </figcaption>
-        </figure>
-
-        <figure class="gallery__item reveal" data-reveal style="--d:80ms">
-          <img src="https://images.unsplash.com/photo-1597007030739-6d2e7172ee6c?w=900&q=80&auto=format&fit=crop"
-               alt="Otwarta komora silnika z widocznymi instalacjami"
-               loading="lazy" decoding="async"
-               width="900" height="700" />
-          <figcaption>
-            <span>02</span>
-            <span>Komora silnika</span>
-          </figcaption>
-        </figure>
-
-        <figure class="gallery__item reveal" data-reveal style="--d:160ms">
-          <img src="https://images.unsplash.com/photo-1493031868606-c9c1f2c46a8f?w=900&q=80&auto=format&fit=crop"
-               alt="Tester diagnostyczny podłączony do gniazda OBD"
-               loading="lazy" decoding="async"
-               width="900" height="700" />
-          <figcaption>
-            <span>03</span>
-            <span>Tester diagnostyczny</span>
-          </figcaption>
-        </figure>
-
-        <figure class="gallery__item gallery__item--wide reveal" data-reveal style="--d:240ms">
-          <img src="https://images.unsplash.com/photo-1607861716497-e65ab29fc7ac?w=1400&q=80&auto=format&fit=crop"
-               alt="Wnętrze warsztatu samochodowego z narzędziami"
-               loading="lazy" decoding="async"
-               width="1400" height="900" />
-          <figcaption>
-            <span>04</span>
-            <span>Stanowisko pracy</span>
-          </figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <!-- ───── BRANDS / NARZĘDZIA ───── -->
-    <section class="brands">
-      <div class="brands__head">
-        <span class="eyebrow reveal" data-reveal>Czym pracujemy</span>
-        <h2 class="reveal" data-reveal style="--d:80ms">Sprzęt diagnostyczny od marek, którym warsztaty ufają.</h2>
-      </div>
-      <ul class="brands__strip reveal" data-reveal style="--d:160ms">
-        <li>Bosch <span>KTS</span></li>
-        <li>Launch <span>X-431</span></li>
-        <li>Autel <span>MaxiSys</span></li>
-        <li>Texa <span>Axone</span></li>
-        <li>Würth <span>WoW!</span></li>
-        <li>Delphi <span>DS</span></li>
-      </ul>
-    </section>
-
-    <hr class="rule" />
-
     <!-- ───── DLACZEGO ───── -->
     <section class="why" id="dlaczego">
       <div class="why__head">
@@ -362,68 +202,6 @@
 
     <hr class="rule" />
 
-    <!-- ───── FAQ ───── -->
-    <section class="faq" id="faq">
-      <div class="faq__head">
-        <span class="eyebrow reveal" data-reveal>Najczęstsze pytania</span>
-        <h2 class="reveal" data-reveal style="--d:80ms">Zanim zadzwonisz — być może już tu odpowiedzieliśmy.</h2>
-      </div>
-
-      <div class="faq__list">
-        <details class="faq-item reveal" data-reveal>
-          <summary>
-            <span>Czy robicie auto, którego nikt nie umiał naprawić?</span>
-            <span class="faq-item__sign" aria-hidden="true"></span>
-          </summary>
-          <div class="faq-item__body">
-            Najczęściej tak. Większość „nieznalezionych usterek elektrycznych” to źle zinterpretowane błędy diagnostyczne, kiepskie masy lub uszkodzone wiązki — sprawdzimy to po kolei i powiemy, co znaleźliśmy.
-          </div>
-        </details>
-
-        <details class="faq-item reveal" data-reveal style="--d:60ms">
-          <summary>
-            <span>Ile kosztuje diagnoza?</span>
-            <span class="faq-item__sign" aria-hidden="true"></span>
-          </summary>
-          <div class="faq-item__body">
-            Sam odczyt błędów to 80 zł. Jeśli decydujesz się na naprawę u nas, koszt diagnozy odliczamy od faktury końcowej. Skomplikowana diagnoza (kilka godzin) — wyceniamy indywidualnie po wstępnym sprawdzeniu.
-          </div>
-        </details>
-
-        <details class="faq-item reveal" data-reveal style="--d:120ms">
-          <summary>
-            <span>Jak długo czeka się na termin?</span>
-            <span class="faq-item__sign" aria-hidden="true"></span>
-          </summary>
-          <div class="faq-item__body">
-            Diagnoza i drobne sprawy — zazwyczaj 1–3 dni. Większe naprawy — 5–10 dni roboczych, w zależności od dostępności części. W nagłych przypadkach zawsze warto zadzwonić — czasem zwalnia się termin.
-          </div>
-        </details>
-
-        <details class="faq-item reveal" data-reveal style="--d:180ms">
-          <summary>
-            <span>Czy udzielacie gwarancji?</span>
-            <span class="faq-item__sign" aria-hidden="true"></span>
-          </summary>
-          <div class="faq-item__body">
-            Tak. Na robociznę — 24 miesiące. Na części — zgodnie z gwarancją producenta (najczęściej 12–24 miesiące). Wszystko na piśmie, na fakturze.
-          </div>
-        </details>
-
-        <details class="faq-item reveal" data-reveal style="--d:240ms">
-          <summary>
-            <span>Czy obsługujecie samochody pod flotę / firmę?</span>
-            <span class="faq-item__sign" aria-hidden="true"></span>
-          </summary>
-          <div class="faq-item__body">
-            Tak — wystawiamy faktury VAT, prowadzimy historię serwisową, na życzenie podsyłamy zdjęcia z każdej naprawy. Dla stałych klientów flotowych ustalamy preferencyjne terminy.
-          </div>
-        </details>
-      </div>
-    </section>
-
-    <hr class="rule" />
-
     <!-- ───── QUOTE ───── -->
     <section class="quote">
       <figure class="reveal" data-reveal>
@@ -448,49 +226,28 @@
       </div>
 
       <div class="contact__grid">
-        <div class="contact__col">
-          <ul class="contact__rows reveal" data-reveal>
-            <li>
-              <span>Telefon</span>
-              <a href="tel:+48504795875">+48 504 795 875</a>
-            </li>
-            <li>
-              <span>E-mail</span>
-              <a href="mailto:autoserwis.krzysztof@gmail.com">autoserwis.krzysztof@gmail.com</a>
-            </li>
-            <li>
-              <span>Adres</span>
-              <a>ul. Kazimierza Wielkiego 205B<br />32-400 Myślenice</a>
-            </li>
-            <li>
-              <span>Godziny</span>
-              <a>Pn–Pt · 8:00 — 16:00<br /><span class="muted-small">sobota po umówieniu</span></a>
-            </li>
-            <li>
-              <span>Działamy</span>
-              <a>od 2000 roku</a>
-            </li>
-          </ul>
-
-          <a class="map-card reveal" data-reveal style="--d:120ms" href="https://maps.google.com/?q=ul.+Kazimierza+Wielkiego+205B+Myślenice" target="_blank" rel="noopener">
-            <div class="map-card__visual" aria-hidden="true">
-              <!-- abstract map made with CSS only -->
-              <span class="map-card__road map-card__road--h" style="top: 28%"></span>
-              <span class="map-card__road map-card__road--h" style="top: 64%"></span>
-              <span class="map-card__road map-card__road--v" style="left: 22%"></span>
-              <span class="map-card__road map-card__road--v" style="left: 72%"></span>
-              <span class="map-card__road map-card__road--d"></span>
-              <span class="map-card__pin">
-                <span class="map-card__pin-pulse"></span>
-              </span>
-            </div>
-            <div class="map-card__meta">
-              <span>Lokalizacja</span>
-              <strong>ul. Kazimierza Wielkiego 205B</strong>
-              <small>Myślenice · otwórz w Google Maps →</small>
-            </div>
-          </a>
-        </div>
+        <ul class="contact__rows reveal" data-reveal>
+          <li>
+            <span>Telefon</span>
+            <a href="tel:+48504795875">+48 504 795 875</a>
+          </li>
+          <li>
+            <span>E-mail</span>
+            <a href="mailto:autoserwis.krzysztof@gmail.com">autoserwis.krzysztof@gmail.com</a>
+          </li>
+          <li>
+            <span>Adres</span>
+            <a>ul. Kazimierza Wielkiego 205B<br />32-400 Myślenice</a>
+          </li>
+          <li>
+            <span>Godziny</span>
+            <a>Pn–Pt · 8:00 — 16:00<br /><span class="muted-small">sobota po umówieniu</span></a>
+          </li>
+          <li>
+            <span>Działamy</span>
+            <a>od 2000 roku</a>
+          </li>
+        </ul>
 
         <form class="contact__form reveal" data-reveal style="--d:80ms" id="contactForm" novalidate>
           <p class="contact__form-note">Wolisz pisać niż dzwonić — zostaw numer, oddzwonimy w godzinach pracy.</p>
@@ -501,10 +258,6 @@
           <label>
             <span>Telefon</span>
             <input type="tel" name="phone" autocomplete="tel" inputmode="tel" required />
-          </label>
-          <label class="full">
-            <span>Marka i model auta</span>
-            <input type="text" name="car" placeholder="np. Skoda Octavia 1.9 TDI 2008" />
           </label>
           <label class="full">
             <span>O co chodzi</span>
